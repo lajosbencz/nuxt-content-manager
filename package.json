@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-content-manager",
+  "version": "0.0.1",
+  "description": "nuxt content manager",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lajos Bencz",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.0",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "ts-node": "^9.0.0"
+  }
+}

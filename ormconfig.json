@@ -1,0 +1,22 @@
+{
+   "name": "default",
+   "type": "sqlite",
+   "database": "nuxt-content-manager.sqlite3",
+   "autoSchemaSync": true,
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/api/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/api/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/api/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/api/entity",
+      "migrationsDir": "src/api/migration",
+      "subscribersDir": "src/api/subscriber"
+   }
+}
